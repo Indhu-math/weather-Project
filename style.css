@@ -6,10 +6,11 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('https://raw.githubusercontent.com/Indhu-math/weather-Project/main/day-sun-weather-app-screen-mobile-interface-design-forecast-background-time-concept-vector-banner-260952656.jpg'); /* Raw image file URL */
-    background-size: cover; /* Makes the image cover the entire page */
-    background-position: center center; /* Centers the background image */
-    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    /* Ensure to use the raw GitHub URL for the image */
+    background-image: url('https://raw.githubusercontent.com/Indhu-math/weather-Project/main/day-sun-weather-app-screen-mobile-interface-design-forecast-background-time-concept-vector-banner-260952656.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +23,7 @@ body {
 }
 
 .weather-card {
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background to keep text readable */
+    background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
