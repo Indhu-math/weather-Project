@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('day-sun-weather-app-screen-mobile-interface-design-forecast-background-time-concept-vector-banner-260952656.jpg'); /* Local image file */
+    background-image: url('https://github.com/Indhu-math/weather-Project/tree/main/day-sun-weather-app-screen-mobile-interface-design-forecast-background-time-concept-vector-banner-260952656.jpg'); /* Local image file */
     background-size: cover; /* Makes the image cover the entire page */
     background-position: center center; /* Centers the background image */
     background-attachment: fixed; /* Keeps the background image fixed while scrolling */
