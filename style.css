@@ -6,7 +6,10 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: #f0f0f0;
+    background-image: url('day-sun-weather-app-screen-mobile-interface-design-forecast-background-time-concept-vector-banner-260952656.jpg'); /* Local image file */
+    background-size: cover; /* Makes the image cover the entire page */
+    background-position: center center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +22,7 @@ body {
 }
 
 .weather-card {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background to keep text readable */
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
